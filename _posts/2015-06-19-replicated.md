@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Replicated - An Easier Path from SaaS to Enterprise
+title: Renovation of Eflete
 ---
 
 {{ page.title }}
