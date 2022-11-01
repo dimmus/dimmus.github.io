@@ -49,3 +49,27 @@
   li {
     padding: .2em 0;
   }
+
+  .site {
+    /* font-size: 110%; */
+    text-align: justify;
+    /* width: 42em; */
+    /* margin: 3em auto 2em auto; */
+    line-height: 1.5em;
+  }
+  
+  .title {
+    color: #a00;
+    font-weight: bold;
+    margin-bottom: 2em;
+  }
+
+  .site .title a.menu {
+    color: #aaa;
+    text-decoration: none;
+    margin-left: 1em;
+  }
+
+  .site .title a.menu:hover {
+    color: black;
+  }
