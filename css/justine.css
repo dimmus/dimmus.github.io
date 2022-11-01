@@ -50,6 +50,8 @@
     padding: .2em 0;
   }
 
+  /* SITE */
+
   .site {
     /* font-size: 110%; */
     text-align: justify;
@@ -73,3 +75,78 @@
   .site .title a.menu:hover {
     color: black;
   }
+
+  /* MENU */
+
+.menu-header {
+    background-color: rgb(240,240,240);
+}
+
+.sub-menu li {
+    display: inline-block;
+}
+
+.pure-menu-link {
+    color: #4d4d4d;
+}
+
+.contact-message {
+    background-color:#ececec;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.transaction {
+    background-color:#ececec;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.pure-menu-horizontal {
+    background-color: transparent;
+}
+
+.menu-brand {
+    display: inline-block;
+}
+
+.pure-form input {
+    width: 40ch;
+}
+
+select {
+    min-width: 40ch;
+}
+
+.pure-form textarea {
+    width: 40ch;
+    height: 20ch;
+}
+
+.pure-menu-heading-icon {
+    padding:0em;
+}
+
+.pure-menu-heading img {
+    width: 2em;
+}
+
+.pure-menu-horizontal {
+    white-space: normal;
+}
+
+.category {
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+
+.pure-menu-selected {
+    background-color: rgb(245, 245, 245);
+    border-radius: 2px;
+}
+
+.section-index {
+    padding-top: 1.75em;
+}
