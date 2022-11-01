@@ -82,7 +82,7 @@
 .site .flex-container {
     display: flex;
     flex-wrap: nowrap;
-    overflow: auto;
+    padding-top: 8px;
 }
 .site .flex-container .pure-menu-link {
     padding-top: 0;
@@ -91,6 +91,7 @@
 
 .site .menu-header {
     /* background-color: rgb(240,240,240); */
+    background-color: transparent;
     margin-bottom: 20px;
 }
 
