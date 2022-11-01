@@ -79,19 +79,18 @@
 
   /* MENU */
 
-.site .flex-container .pure-menu-link {
-    padding-top: 0;
-    padding-bottom: 0;
-}
-
 .site .flex-container {
     display: flex;
     flex-wrap: nowrap;
     overflow: auto;
 }
+.site .flex-container .pure-menu-link {
+    padding-top: 0;
+    padding-bottom: 0;
+}
 
 .site .menu-header {
-    background-color: rgb(240,240,240);
+    /* background-color: rgb(240,240,240); */
     margin-bottom: 20px;
 }
 
