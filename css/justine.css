@@ -142,11 +142,61 @@ select {
     margin-bottom: 3px;
 }
 
+@media only screen and (max-width: 768px) {
+
+    .menu-brand {
+        display: inline-block;
+        float: right;
+        padding-right: 12px;
+    }
+
+
+    main {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    blockquote {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .sub-menu li {
+        display: inline-block;
+    }
+
+    .pure-menu-horizontal {
+        background-color: rgb(240, 240, 240);
+    }
+
+    .sub-menu {
+        border-bottom: 1px solid white;
+    }
+
+    .pure-menu-link {
+        padding: 0.5em 12px;
+    }
+
+    .pure-form input {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+
+    select {
+        width: 100%;
+    }
+
+    .pure-form textarea {
+        width: 100%;
+        height: 20ch;
+    }
+
+    body {
+        padding: 0;
+    }
+}
+
 .pure-menu-selected {
     background-color: rgb(245, 245, 245);
     border-radius: 2px;
-}
-
-.section-index {
-    padding-top: 1.75em;
 }
