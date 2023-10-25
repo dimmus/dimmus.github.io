@@ -5,6 +5,7 @@ title: Git - Cheat sheet
 
 {{ page.title }}
 ================
+
 - [Configure tooling](#configure-tooling)
 - [Create repositories](#create-repositories)
 - [Make changes](#make-changes)
